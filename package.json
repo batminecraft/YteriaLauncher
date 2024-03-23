@@ -1,11 +1,11 @@
 {
-  "name": "helioslauncher",
-  "version": "2.2.1",
-  "productName": "Helios Launcher",
-  "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "name": "YteriaLauncher",
+  "version": "1.0.0",
+  "productName": "Yetria - Lanceur",
+  "description": "Lanceur officiel de Yteria",
+  "author": "BatMultifonction",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "homepage": "https://github.com/batminecraft/YteriaLauncher",
   "bugs": {
     "url": "https://github.com/dscalzi/HeliosLauncher/issues"
   },
@@ -34,6 +34,7 @@
     "got": "^11.8.5",
     "helios-core": "~2.2.0",
     "helios-distribution-types": "^1.3.0",
+    "init": "^0.1.2",
     "jquery": "^3.7.1",
     "lodash.merge": "^4.6.2",
     "semver": "^7.6.0",
