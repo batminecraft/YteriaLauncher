@@ -41,7 +41,7 @@ linux:
   target: 'AppImage'
   maintainer: 'BatMultifonction'
   vendor: 'BatMultifonction'
-  synopsis: 'Yetria Launcher'
+  synopsis: 'Yteria Launcher'
   description: 'Custom launcher which allows users to join modded servers. All mods, configurations, and updates are handled automatically.'
   category: 'Game'
 
