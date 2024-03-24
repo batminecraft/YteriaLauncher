@@ -16,6 +16,24 @@ const LangLoader                        = require('./app/assets/js/langloader')
 // Setup Lang
 LangLoader.setupLanguage()
 
+const { Client } = require('discord-rpc');
+const client = new Client({ transport: 'ipc' });
+
+client.on('ready', async () => {
+  await client.setActivity({
+    details: 'Yteria - Serveur Minecraft PvP/Faction Semi-rp Modée',
+    state: 'Yteria',
+    largeImageKey: 'sealcircle',
+    largeImageText: 'Minecraft', 
+    smallImageKey: 'sealcircle',
+    smallImageText: 'Mining', 
+    instance: false,
+  });
+  console.log('Rich Presence is active!');
+});
+
+client.login({ clientId: '1221397140106907761' });
+
 // Setup auto updater.
 function initAutoUpdater(event, data) {
 
@@ -359,3 +377,4 @@ app.on('activate', () => {
         createWindow()
     }
 })
+
