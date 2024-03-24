@@ -7,7 +7,7 @@
   "license": "UNLICENSED",
   "homepage": "https://github.com/batminecraft/YteriaLauncher",
   "bugs": {
-    "url": "https://github.com/batminecraft/YteriaLauncher"
+    "url": "https://github.com/batminecraft/YteriaLauncher/issues"
   },
   "private": true,
   "main": "index.js",
